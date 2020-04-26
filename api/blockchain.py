@@ -1,6 +1,6 @@
 import requests, json, time, datetime, os
 
-bc_url = os.environ["BLOCKCHAIN_API_ENDPOINT"]
+bc_url = os.environ["BLOCKCHAIN_API_URL"]
 
 
 def get_timestamp_in_millis():
